@@ -1,3 +1,15 @@
-theme: jekyll-theme-cayman
 title: ARC User's Guide
 description: User's Guide for ARC Risk Calculator
+remote_theme: just-the-docs/just-the-docs
+url: https://jtmcgehee.github.io/ARC-Users-Guide
+
+color_scheme: dark
+
+search_enabled: true
+
+aux_links:
+  "Download ARC":
+    - "https://github.com/jtmcgehee/ARC/releases"
+
+plugins:
+  - jekyll-remote-theme

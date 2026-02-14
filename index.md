@@ -1,3 +1,9 @@
+---
+title: Home
+layout: default
+nav_order: 1
+---
+
 # ARC User's Guide
 
 **Version:** 0.2.1  
@@ -15,22 +21,34 @@ This guide covers how to get started with ARC and walks through each step of a t
 
 ## Table of Contents
 
-1. [Installation](#installation)
-2. [Launching ARC](#launching-arc)
-3. [Creating or Opening a Project](#creating-or-opening-a-project)
-4. [Workflow Overview](#workflow-overview)
-5. [Step 1: Project Information](#step-1-project-information)
-6. [Step 2: Site Parameters](#step-2-site-parameters)
-7. [Step 3: Site Model](#step-3-site-model)
-8. [Step 4: Chemicals of Potential Concern (COPCs)](#step-4-chemicals-of-potential-concern-copcs)
-9. [Step 5: Exposure Point Concentrations (EPCs)](#step-5-exposure-point-concentrations-epcs)
-10. [Step 6: Exposure Parameters](#step-6-exposure-parameters)
-11. [Step 7: Toxicity Values](#step-7-toxicity-values)
-12. [Step 8: Intermediate Calculations](#step-8-intermediate-calculations)
-13. [Step 9: Risk Assessment](#step-9-risk-assessment)
-14. [Step 10: Reports](#step-10-reports)
-15. [Saving and Managing Projects](#saving-and-managing-projects)
-16. [Troubleshooting](#troubleshooting)
+- [ARC User's Guide](#arc-users-guide)
+  - [Welcome](#welcome)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Launching ARC](#launching-arc)
+    - [First Launch](#first-launch)
+    - [Subsequent Launches](#subsequent-launches)
+  - [Creating or Opening a Project](#creating-or-opening-a-project)
+  - [Workflow Overview](#workflow-overview)
+  - [Step 1: Project Information](#step-1-project-information)
+    - [Project Details](#project-details)
+    - [Site Location](#site-location)
+  - [Step 2: Site Parameters](#step-2-site-parameters)
+  - [Step 3: Site Model](#step-3-site-model)
+  - [Step 4: Chemicals of Potential Concern (COPCs)](#step-4-chemicals-of-potential-concern-copcs)
+  - [Step 5: Exposure Point Concentrations (EPCs)](#step-5-exposure-point-concentrations-epcs)
+  - [Step 6: Exposure Parameters](#step-6-exposure-parameters)
+  - [Step 7: Toxicity Values](#step-7-toxicity-values)
+  - [Step 8: Intermediate Calculations](#step-8-intermediate-calculations)
+  - [Step 9: Risk Assessment](#step-9-risk-assessment)
+  - [Step 10: Reports](#step-10-reports)
+  - [Saving and Managing Projects](#saving-and-managing-projects)
+    - [Saving Your Work](#saving-your-work)
+    - [File Management Tips](#file-management-tips)
+  - [Troubleshooting](#troubleshooting)
+    - [First Launch Issues](#first-launch-issues)
+    - [Update Check Failures](#update-check-failures)
+    - [General Tips](#general-tips)
 
 ---
 
@@ -73,7 +91,7 @@ ARC projects are saved as **.arc files**, which you can organize, share with col
 
 You can also access these options at any time from the left sidebar using **Save Project** and **Open Project**.
 
-![New or Open assessment options](Assets/welcome screen.png)
+![New or Open assessment options](Assets/new_open_project.png)
 
 ---
 
@@ -93,6 +111,8 @@ ARC guides you through a risk assessment using a step-by-step workflow. The left
 10. **Reports**: Generate assessment deliverables
 
 You can navigate between steps using the sidebar links or the **Back** and **Next →** buttons at the bottom of each screen. Required fields are marked with an asterisk (*).
+
+![ARC main window showing the workflow sidebar](Assets/workflow_sidebar.png)
 
 ---
 
@@ -121,7 +141,7 @@ At the bottom of this section, ARC automatically records the **Date Created** an
 
 Once you've entered the project details, click **Next →** to proceed to Site Parameters.
 
-![Project Information screen with example data](Assets/Project Information.png)
+![Project Information screen with example data](Assets/01_project_info.png)
 
 ---
 
